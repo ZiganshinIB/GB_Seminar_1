@@ -5,6 +5,7 @@ import lesson2.homework.Task1;
 import lesson2.homework.Task2;
 import java.util.Arrays;
 
+
 public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{21, 22,13,53,12,56};
