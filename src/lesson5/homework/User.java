@@ -28,6 +28,22 @@ public class User {
         else throw new RuntimeException("У человека есть паспорт!!!");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public String gettName() {
+        return tName;
+    }
+
+    public String getPassport() {
+        return passport;
+    }
+
     @Override
     public int hashCode() {
         return this.passport.hashCode();
