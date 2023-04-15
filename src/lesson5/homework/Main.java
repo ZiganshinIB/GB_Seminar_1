@@ -14,5 +14,7 @@ public class Main {
         staffList.add(new Staff("Анна", "Крутова"));
         StaffMap staffMap = new StaffMap(staffList);
         staffMap.print();
+
+
     }
 }
