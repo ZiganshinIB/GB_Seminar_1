@@ -20,10 +20,14 @@ public class Staff {
     }
 
     @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if(obj instanceof  Staff)
-            return  ((Staff) obj).name.equals(this.name) &&
-                    ((Staff) obj).lName.equals(this.lName);
+            return  ((Staff) obj).name.equals(this.name);
         else return false;
     }
 
